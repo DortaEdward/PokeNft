@@ -33,6 +33,14 @@
             <button class="register__btn">Register</button>
           </div>
         </div>
+        <div class="mobile__nav__container">
+          <svg viewBox="0 0 24 24" width="32" height="32" stroke="#16dba0" stroke-width="2" fill="none"
+            stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </div>
       </div>
     </header>
 
@@ -41,12 +49,34 @@
         <h2>Cool <span>Pokemon</span> cards which value is increasing daily</h2>
         <p>If there is something we love in the world, it is Pokemon. Whether you're talking about the original 150 or
           all 923 of them.</p>
-        <button class="hero__explore__btn hero_btn">Explore</button>
-        <button class="hero__goToStore__btn hero_btn">Go to store -></button>
+        <div class="hero__btns">
+          <button class="hero__explore__btn hero_btn">Explore</button>
+          <button class="hero__goToStore__btn hero_btn">Go to store -></button>
+        </div>
       </div>
       <div class="hero__right">
         <div class="card__container">
-          <div>
+          <div class="card pikachu">
+            <img class="card__img" src="images/pikachu.jpg" alt="jigglypuff">
+            <div class="card__details">
+              <div class="card__owner">
+                <div class="owner__img">O</div>
+                <div>
+                  <p class="owner__name">Olivia Emma</p>
+                  <p class="owner__wealth">1.2k weth</p>
+                </div>
+              </div>
+              <div class="card__value">
+                <svg viewBox="0 0 24 24" width="16" height="16" stroke="#16dba0" stroke-width="4" fill="#16dba0"
+                  stroke-linecap="round" stroke-linejoin="round" class="up">
+                  <line x1="12" y1="19" x2="12" y2="5"></line>
+                  <polyline points="5 12 12 5 19 12"></polyline>
+                </svg>
+                <p>1.42 ETH</p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="cards">
             <div class="card jigglypuff">
               <img class="card__img" src="images/jigglypuff.jpg" alt="jigglypuff">
               <div class="card__details">
@@ -67,27 +97,7 @@
                 </div>
               </div>
             </div>
-            <div class="card pikachu">
-              <img class="card__img" src="images/pikachu.jpg" alt="jigglypuff">
-              <div class="card__details">
-                <div class="card__owner">
-                  <div class="owner__img">O</div>
-                  <div>
-                    <p class="owner__name">Olivia Emma</p>
-                    <p class="owner__wealth">1.2k weth</p>
-                  </div>
-                </div>
-                <div class="card__value">
-                  <svg viewBox="0 0 24 24" width="16" height="16" stroke="#16dba0" stroke-width="4" fill="#16dba0"
-                    stroke-linecap="round" stroke-linejoin="round" class="up">
-                    <line x1="12" y1="19" x2="12" y2="5"></line>
-                    <polyline points="5 12 12 5 19 12"></polyline>
-                  </svg>
-                  <p>1.42 ETH</p>
-                </div>
-              </div>
-            </div>
-          </div>
+          </div> -->
         </div>
         <div class="hero__right__bottom">
           <div class="stat">
@@ -284,8 +294,7 @@
     <section class="contributors__section">
       <h2>Top Contributors for this Month</h2>
       <p class="contributors__description">This month, we also want to honor our top contributors from the entire year
-        for all there hard work for our
-        community. Join us in congratulation them!</p>
+        for all there hard work for our community. Join us in congratulation them!</p>
       <div class="contributor__cards">
         <div class="contributor__card">
           <div class="contributor__img"></div>
@@ -388,14 +397,11 @@
         </div>
       </div>
     </section>
-
     <section class="join__section">
       <h1 class="join__heading">Join Our Community</h1>
       <p>We believe there is nothing more unstoppable than when people come together.</p>
       <button class="join__btn">Join Now</button>
     </section>
-
-    <!-- <footer>This is the footers</footer> -->
   </div>
 </body>
 
