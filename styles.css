@@ -25,8 +25,8 @@ body {
 .bg__blur {
   z-index: -2;
   position: absolute;
-  width: 40rem;
-  height: 40rem;
+  width: min(40rem, 40vw);
+  height: min(40rem, 40vw);
   border-radius: 50%;
   background: rgba(19, 137, 255, 0.1);
   filter: blur(1.5rem);
