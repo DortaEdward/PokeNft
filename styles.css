@@ -22,26 +22,6 @@ body {
   position: relative;
 }
 
-.bg__blur {
-  z-index: -2;
-  position: absolute;
-  width: min(40rem, 40vw);
-  height: min(40rem, 40vw);
-  border-radius: 50%;
-  background: rgba(19, 137, 255, 0.1);
-  filter: blur(1.5rem);
-}
-
-.bg__blur__top {
-  top: 10%;
-  right: 10%;
-}
-
-.bg__blur__bottom {
-  top: 55%;
-  left: 1%;
-}
-
 .container {
   max-width: 1024px;
   width: 100%;
